@@ -59,11 +59,6 @@ Making Laravel desktop application using Electron Js (For Linux)
 ```npm run build``` OR ```yarn build```
 
 
-### Special Thanks
 
-I would like to thank LaravelArticle. If it wasnt for them i wouldn't push myself to try this out.
-
-
-### Check the original tutorial and usage on [laravelarticle.com](https://laravelarticle.com/laravel-desktop-application-using-electron-js)
 
 
