@@ -1,5 +1,5 @@
-# Laratron for MAC OS
-Making Laravel desktop application using Electron Js(For MAC OS)
+# Laravel  for MAC OS
+Making Laravel desktop application using Electron Js(For Linux)
 
 <p>
     <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://badgen.net/badge/licence/CC BY 4.0/23BCCB" /></a>
