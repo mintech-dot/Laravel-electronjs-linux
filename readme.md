@@ -1,4 +1,4 @@
-# Laravel  for MAC OS
+# CRUD laravel electron js for Linux
 Making Laravel desktop application using Electron Js(For Linux)
 
 <p>
@@ -14,7 +14,7 @@ Making Laravel desktop application using Electron Js(For Linux)
 
 1. Clone it 
 
-```git clone https://github.com/```
+```git clone https://github.com/CRUD-Laravel-electronjs```
 
 2. Navigate to the directory
 
