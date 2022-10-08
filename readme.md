@@ -33,7 +33,21 @@ Making Laravel desktop application using Electron Js(For Linux)
 
 ```cd www/```
 
-2. Start developing :)
+2. make sure to add the correct php bin path 
+
+```function createWindow() {
+  // Create a PHP Server
+    phpServer.createServer({
+    port: port,
+    hostname: host,
+    base: `${__dirname}/www/public`,
+    keepalive: false,
+    open: false,
+    bin: '/usr/bin/php',  // <---- this one here
+    router: __dirname + '/www/server.php'
+  });```
+
+3. Start developing :)
 
 #### You can also try to develop laravel separately then move the files to www folder once. Experiment and give some feedback :)
 
@@ -42,5 +56,12 @@ Making Laravel desktop application using Electron Js(For Linux)
 
 ```npm run build``` OR ```yarn build```
 
+
+### Special Thanks
+
+I would like to thank LaravelArticle. If it wasnt for them i wouldn't push myself to try this out.
+
+
+### Check the original tutorial and usage on [laravelarticle.com](https://laravelarticle.com/laravel-desktop-application-using-electron-js)
 
 
