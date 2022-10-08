@@ -2,7 +2,7 @@
 Making Laravel desktop application using Electron Js (For Linux)
 
 <p>
-    <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://badgen.net/badge/licence/CC BY 4.0/23BCCB" /></a>
+    <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://badgen.net/badge/licence/CC BY 1.0/23BCCB" /></a>
     <a href="https://twitter.com/raid_sobhi"><img src="https://badgen.net/badge/twitter/@raid_sobhi/1DA1F2?icon&label" /></a>
     <a href="https://dev.to/takunda">
  
