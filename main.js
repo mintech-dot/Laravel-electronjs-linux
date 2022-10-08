@@ -23,6 +23,7 @@ function createWindow() {
     base: `${__dirname}/www/public`,
     keepalive: false,
     open: false,
+  // Change bin to use the one on your machine:
     bin: '/usr/bin/php',  // <---- this one here
     router: __dirname + '/www/server.php'
   });
