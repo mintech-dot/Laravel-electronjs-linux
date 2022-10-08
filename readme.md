@@ -45,7 +45,8 @@ Making Laravel desktop application using Electron Js (For Linux)
     open: false,
     bin: '/usr/bin/php',  // <---- this one here
     router: __dirname + '/www/server.php'
-  });```
+  });
+  ```
 
 3. Start developing :)
 
