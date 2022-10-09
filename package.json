@@ -1,7 +1,7 @@
 {
-  "name": "crud-laravel-electron",
+  "name": "laravel-electron",
   "version": "1.0.0",
-  "description": "Making laravel crud desktop application using electron js",
+  "description": "Making laravel desktop application using electron js",
   "main": "main.js",
   "engines": {
     "node": ">=8.0"
