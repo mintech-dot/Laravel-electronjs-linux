@@ -1,4 +1,4 @@
-# CRUD laravel electron js for Linux
+# laravel electron js for Linux
 Making Laravel desktop application using Electron Js For Linux
 
 <p>
