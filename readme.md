@@ -15,7 +15,7 @@ Making Laravel desktop application using Electron Js For Linux
 
 1. Clone it 
 
-```git clone https://github.com/mintech-dot/Laravel-electronjs```
+```git clone https://github.com/mintech-dot/Laravel-electronjs-linux```
 
 2. Navigate to the directory
 
