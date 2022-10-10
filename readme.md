@@ -30,11 +30,13 @@ Making Laravel desktop application using Electron Js For Linux
 
 ### Developing
 
-1. cd to www folder(inside the project)
+1. cd to www folder(inside the project).
 
 ```cd www/```
 
-2. make sure to add the correct php bin path 
+2. add laravel project inside www folder.
+
+3. make sure to add the correct php bin path in main.js file.
 
 ```function createWindow() {
   // Create a PHP Server
@@ -49,7 +51,7 @@ Making Laravel desktop application using Electron Js For Linux
   });
   ```
 
-3. Start developing :)
+4. Start developing :)
 
 #### You can also try to develop laravel separately then move the files to www folder once. Experiment and give some feedback :)
 
