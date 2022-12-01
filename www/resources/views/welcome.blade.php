@@ -109,9 +109,6 @@
 		}
 	</style>
 
-
-
-
 </head>
 <body style="background: #edf2f7;">
     <div>
@@ -121,10 +118,10 @@
     <div x-data="{ sidebarOpen: false }" class="flex h-screen bg-gray-200">
         
         <div class="flex-1 flex flex-col overflow-hidden">
+        
             <header class="flex justify-between items-center py-4 px-6 bg-white border-b-4 border-blue-700">
-               
-                
             </header>
+            
             <main class="flex-1 overflow-x-hidden overflow-y-auto bg-gray-200">
                 <div class="container mx-auto px-6 py-8">
                     <h3 class="text-gray-700 text-3xl font-medium text-center py-8">CRUD Desktop Application</h3>
@@ -132,15 +129,17 @@
                     <p class="text-center text-lg text-red-500"> </p>
                     </div>
                     <div class="container w-full md:w-4/5 xl:w-3/5  mx-auto px-2">
+                    
                     @if ($errors->any())
-    <div class="alert alert-danger">
-        <ul>
-            @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-            @endforeach
-        </ul>
-</di>
-@endif
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </di>
+                    @endif
+                    
                     <div class="flex flex-col justify-center md:justify-start my-auto pt-9 md:pt-0 px-9 ">
                     
                     <form class="flex flex-col pt-3 " action="/dashboard/update" method="post">
@@ -151,14 +150,15 @@
                                     Full name
                                       </label>
                                       <input type="text" name="fname" value="" class="text-gray-700 mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-blue-700 focus:ring-blue-700 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Full name" required />                        
-                                </div>
-                                  <div class="w-full md:w-1/2 px-3">
+                                 </div>
+                                
+                                 <div class="w-full md:w-1/2 px-3">
                                   <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                                     Address
                                     </label>
                                    <input type="text" name="address" value="" class="text-gray-700 mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-blue-700 focus:ring-blue-700 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Address" required/>                        
                                  </div>
-                                </div>
+                         </div>
                                 
                                
                                 <div class="flex flex-wrap -mx-3 mb-6">
@@ -189,25 +189,21 @@
                                       <input type="text" name="description" value="" class="text-gray-700 mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-blue-700 focus:ring-blue-700 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Additional information" required/>                        
                                   </div>
                                   </div>
-                                  
-                                
                                   <input type="hidden" name="id" value="">
                                   <input type="submit" value="Update" class="bg-blue-700 text-white font-bold text-lg hover:bg-blue-500 p-2 mt-8 rounded-lg">
                                
-                              </form>
-                        <div class="text-center pt-12 pb-12">
-                        </div>
-                    </div>
-                    </div>
+                         </form>
+                                    <div class="text-center pt-12 pb-12">
+                                    </div>
+                                 </div>
+                             </div>
               
               
               
                       <!--Card-->
                       <div id='recipients' class="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
-              
-              
-                      <table id="example" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%">                              
-                      <thead>
+                            <table id="example" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%">                              
+                              <thead>
                                   <tr>
                                       <th data-priority="1">Full name</th>
                                       <th data-priority="2">Address</th>
@@ -229,18 +225,12 @@
                                             <td></td>	
                                             <td></td>	
                                             <td></td>	
-
                                             <td></td> 
                                             <td></td>
               
                                   <!-- Rest of your data (refer to https://datatables.net/examples/server_side/ for server side processing)-->
-              
-                                  
-                              </tbody>
-              
-                          </table>
-              
-              
+                              </tbody>          
+                           </table>
                       </div>
                       <!--/Card-->
                   <div class="text-center pt-12 pb-12">
@@ -250,7 +240,7 @@
                   <!--/container-->
 
                   <!-- jQuery -->
-                  < <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
      <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
      <script src="https://cdn.datatables.net/buttons/2.0.1/js/dataTables.buttons.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
@@ -282,8 +272,7 @@
              });
          });
      </script>
-              
-                    
+     
             </main>
         </div>
     </div>
