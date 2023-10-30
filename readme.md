@@ -19,7 +19,7 @@ Making Laravel desktop application using Electron Js For Linux.
 
 2. Navigate to the directory
 
-```cd CRUD-Laravel-electronjs```
+```cd Laravel-electronjs-linux```
 
 3. Install dependencies
 
